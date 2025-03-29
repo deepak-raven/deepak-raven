@@ -28,7 +28,7 @@
 ---
 
 ### 🏆 Contribution Snake:
-![Snake Animation](https://github.com/deepak-raven/deepak-raven/blob/output/github-contribution-grid-snake.svg)
+![Snake Animation](https://raw.githubusercontent.com/deepak-raven/deepak-raven/output/github-contribution-grid-snake.svg)
 
 ---
 
