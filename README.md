@@ -15,20 +15,20 @@
 ---
 
 ### 📊 GitHub Stats:
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=dark)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=deepak-raven&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=deepak-raven&layout=compact&theme=tokyonight)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=deepak-raven&theme=dark)
 
 ---
 
 ### 💡 Fun Stuff:
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal)
-![Profile Views](https://komarev.com/ghpvc/?username=yourusername&color=blue)
+![Profile Views](https://komarev.com/ghpvc/?username=deepak-raven&color=blue)
 
 ---
 
 ### 🏆 Contribution Snake:
-![Snake Animation](https://github.com/yourusername/yourusername/blob/output/github-contribution-grid-snake.svg)
+![Snake Animation](https://github.com/deepak-raven/deepak-raven/blob/output/github-contribution-grid-snake.svg)
 
 ---
 
