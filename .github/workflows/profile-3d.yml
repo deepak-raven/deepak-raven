@@ -5,33 +5,34 @@ on:
     - cron: '0 18 * * *'  # Runs daily at 18:00 UTC (11:30 PM IST)
   workflow_dispatch:  # Allows manual triggering
 
-permissions:
-  contents: write  # Grants permission to push updates
-
 jobs:
   generate_heatmap:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Set Up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.10'
 
       - name: Install Dependencies
         run: pip install github-contribution-grid
 
       - name: Generate 3D Contribution Heatmap
         run: |
-          github-contribution-grid --username deepak-raven --output contribution-heatmap.svg
+          python generate_heatmap.py  # Replace with your actual script
 
-      - name: Commit and Push Heatmap
+      - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add contribution-heatmap.svg
-          git commit -m "Updated 3D Contribution Heatmap"
+          git add .
+          git commit -m "Updated 3D Contribution Heatmap" || echo "No changes to commit"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
