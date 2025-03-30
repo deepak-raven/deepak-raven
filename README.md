@@ -1,7 +1,11 @@
 <table>
   <tr>
     <td style="vertical-align: middle;">
-      <h2>Hi there! I'm Deepak 👋</h2>
+    <h2>
+        <a href="https://git.io/typing-svg">
+          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=F7A90A&width=435&lines=Hi+there!+I'm+Deepak+👋" alt="Typing SVG">
+        </a>
+      </h2>
       <h3>🚀 About Me:</h3>
       <ul>
         <li>🎓 Computer Science Engineering Student</li>
