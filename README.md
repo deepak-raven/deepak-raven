@@ -42,7 +42,8 @@
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal)
 ![Profile Views](https://komarev.com/ghpvc/?username=deepak-raven&color=blue)
 
-![3D Contribution Graph](profile-3d-contribution.svg)
+### 🏆 3D Contribution Heatmap:
+![3D Heatmap](contribution-heatmap.svg)
 
 ---
 
