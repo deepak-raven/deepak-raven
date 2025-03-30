@@ -3,45 +3,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deepak's GitHub Page</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
+            font-family: Arial, sans-serif;
+            transition: background 0.3s, color 0.3s;
             margin: 0;
             padding: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-        }
-        .container {
-            max-width: 800px;
-            width: 100%;
-            padding: 20px;
-            text-align: center;
-        }
-        .profile {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 20px;
-        }
-        .profile img {
-            width: 120px;
-            border-radius: 50%;
-        }
-        .tech-stack, .github-stats, .contact {
-            margin-top: 30px;
-        }
-        .contact img {
-            width: 40px;
-            margin: 10px;
-            transition: transform 0.3s;
-        }
-        .contact img:hover {
-            transform: scale(1.1);
         }
         .dark-mode {
             background-color: #121212;
@@ -59,39 +30,83 @@
             font-weight: bold;
             border-radius: 5px;
         }
+        .container {
+            display: flex;
+            width: 80%;
+            max-width: 1000px;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .text-content {
+            flex: 1;
+        }
+        .profile-image {
+            width: 200px;
+            height: auto;
+            position: relative;
+        }
+        .profile-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .profile-image::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 40px;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff);
+        }
+        .tech-stack {
+            width: 80%;
+            max-width: 1000px;
+            padding: 20px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-top: 20px;
+        }
+        .tech-icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 10px;
+        }
+        .tech-icons img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: white;
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
     <button class="switch" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
     <div class="container">
-        <div class="profile">
-            <img src="https://github.com/user-attachments/assets/85e7a433-82f2-4b6a-9c17-0644e84bca9a" alt="Deepak's Profile">
-            <div>
-                <h2>Hi there! I'm Deepak 👋</h2>
-                <p>🚀 Computer Science Engineering Student | Future Entrepreneur</p>
-            </div>
-        </div><div class="tech-stack">
-        <h3>🔧 Tech Stack & Tools:</h3>
-        <p>Python, C, HTML, CSS, JavaScript</p>
-    </div>
-
-    <div class="github-stats">
-        <h3>📊 GitHub Stats:</h3>
-        <img src="https://github-readme-stats.vercel.app/api?username=deepak-raven&show_icons=true&theme=radical" alt="GitHub Stats">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=deepak-raven&theme=dark" alt="GitHub Streak">
-    </div>
-
-    <div class="contact">
-        <h3>📫 Connect with Me:</h3>
-        <a href="mailto:your-email@gmail.com">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail">
-        </a>
-        <a href="https://linkedin.com/in/contact-deepak-s">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-        </a>
-        <a href="https://x.com/DeepakS200507">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/X_logo_2023.svg" alt="X">
-        </a>
+        <div class="text-content">
+            <h2>Hi there! I'm Deepak 👋</h2>
+            <h3>🚀 About Me:</h3>
+            <ul>
+                <li>🎓 Computer Science Engineering Student</li>
+                <li>💡 Passionate about AI, Web Development</li>
+                <li>💼 Future Entrepreneur aiming to revolutionize the world</li>
+            </ul>
+        </div>
+        <div class="profile-image">
+            <img src="https://github.com/user-attachments/assets/85e7a433-82f2-4b6a-9c17-0644e84bca9a" alt="Profile Image">
+        </div>
+    </div><div class="tech-stack">
+    <h3>🔧 Tech Stack & Tools:</h3>
+    <div class="tech-icons">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+        <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
     </div>
 </div>
 
