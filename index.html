@@ -4,110 +4,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deepak's GitHub Page</title>
     <style>
-        :root {
-    --bg-light: #f5f5f5;
-    --text-light: #333333;
-    --heading-light: #007acc;
-    --link-light: #1e90ff;
-    --button-light: #6200ea;
-    --border-light: #cccccc;
-}
-
-:root {
-    --bg-dark: #121212;
-    --text-dark: #ffffff;
-    --heading-dark: #ff6600;
-    --link-dark: #ff4500;
-    --button-dark: #ff9800;
-    --border-dark: #d1d1d1;
-}
-
-body {
-    background-color: var(--bg-light);
-    color: var(--text-light);
-    transition: background 0.3s, color 0.3s;
-}
-
-.dark-mode {
-    background-color: var(--bg-dark);
-    color: var(--text-dark);
-}
-
-h1, h2, h3 {
-    color: var(--heading-light);
-}
-
-.dark-mode h1, .dark-mode h2, .dark-mode h3 {
-    color: var(--heading-dark);
-}
-
-a {
-    color: var(--link-light);
-}
-
-.dark-mode a {
-    color: var(--link-dark);
-}
-
-button {
-    background-color: var(--button-light);
-    color: white;
-    border: 1px solid var(--border-light);
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.dark-mode button {
-    background-color: var(--button-dark);
-    border: 1px solid var(--border-dark);
-            }
+        body {
+            font-family: Arial, sans-serif;
+            transition: background 0.3s, color 0.3s;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            background: #1f1f1f;
+            color: white;
+            padding: 20px;
+            position: fixed;
+        }
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+            width: 100%;
+        }
+        .dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+        .switch {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            padding: 10px;
+            cursor: pointer;
+            border: none;
+            background: #000;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+        }
+        .social-icons img {
+            width: 40px;
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
-    <button class="switch" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button><table style="width:100%; border-collapse: collapse;">
-    <tr>
-        <td style="width:75%;vertical-align: middle;">
-            <h2>
-                <a href="https://git.io/typing-svg">
-                  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=random&width=550&lines=Hi+there!+I'm+Deepak+👋" alt="Typing SVG">
-                </a>
-            </h2>
-            <h3>🚀 About Me:</h3>
-            <ul>
-                <li>🎓 Computer Science Engineering Student</li>
-                <li>💡 Passionate about AI, Web Development</li>
-                <li>💼 Future Entrepreneur aiming to revolutionize the world</li>
-            </ul>
-        </td>
-        <td style="width:25%; vertical-align: middle;">
-            <img src="https://github.com/user-attachments/assets/85e7a433-82f2-4b6a-9c17-0644e84bca9a" width="150">
-        </td>
-    </tr>
-</table>
+    <div class="sidebar">
+        <h2>Deepak's Profile</h2>
+        <ul>
+            <li><a href="#about" style="color: white;">About Me</a></li>
+            <li><a href="#tech" style="color: white;">Tech Stack</a></li>
+            <li><a href="#stats" style="color: white;">GitHub Stats</a></li>
+            <li><a href="#contact" style="color: white;">Contact</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <button class="switch" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button><section id="about">
+        <div class="profile">
+            <img src="https://github.com/user-attachments/assets/85e7a433-82f2-4b6a-9c17-0644e84bca9a" alt="Profile">
+            <div>
+                <h2>Hi there! I'm Deepak 👋</h2>
+                <p>🎓 Computer Science Engineering Student</p>
+                <p>💡 Passionate about AI, Web Development</p>
+                <p>💼 Future Entrepreneur aiming to revolutionize the world</p>
+            </div>
+        </div>
+    </section>
 
-<h3>📊 GitHub Stats:</h3>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=deepak-raven&theme=react-dark">
-<img src="https://github-readme-stats.vercel.app/api?username=deepak-raven&show_icons=true&theme=radical">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepak-raven&layout=compact&theme=tokyonight">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=deepak-raven&theme=dark">
+    <section id="tech">
+        <h2>🔧 Tech Stack & Tools:</h2>
+        <p>Python, C, HTML5, CSS3</p>
+    </section>
 
-<h3>🏆 Contribution Snake:</h3>
-<img src="https://raw.githubusercontent.com/deepak-raven/deepak-raven/output/github-contribution-grid-snake.svg">
+    <section id="stats">
+        <h2>📊 GitHub Stats:</h2>
+        <img src="https://github-readme-stats.vercel.app/api?username=deepak-raven&show_icons=true&theme=radical" alt="GitHub Stats">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepak-raven&layout=compact&theme=tokyonight" alt="Top Languages">
+    </section>
 
-<h3>📫 Connect with Me:</h3>
-<a href="mailto:deepak.me005@gmail.com" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail" width="40">
-</a>
+    <section id="contact">
+        <h2>📫 Connect with Me:</h2>
+        <div class="social-icons">
+            <a href="mail-to:deepak.me005@gmail.com"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Gmail_Icon.svg" alt="Gmail"></a>
+            <a href="https://linkedin.com/in/contact-deepak-s"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"></a>
+            <a href="https://x.com/DeepakS200507"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/X_logo_2023.svg" alt="X"></a>
+        </div>
+    </section>
+</div>
 
-<a href="https://linkedin.com/in/contact-deepak-s" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="40">
-</a>
-
-<a href="https://x.com/DeepakS200507" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" alt="X" width="40">
-</a>
-    
 <script>
     function toggleDarkMode() {
         document.body.classList.toggle("dark-mode");
