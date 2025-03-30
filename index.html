@@ -3,26 +3,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deepak's GitHub Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            transition: background 0.3s, color 0.3s;
+            font-family: 'Inter', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
             margin: 0;
             padding: 0;
             display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
-        .sidebar {
-            width: 250px;
-            height: 100vh;
-            background: #1f1f1f;
-            color: white;
-            padding: 20px;
-            position: fixed;
-        }
-        .content {
-            margin-left: 270px;
-            padding: 20px;
+        .container {
+            max-width: 800px;
             width: 100%;
+            padding: 20px;
+            text-align: center;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        .profile img {
+            width: 120px;
+            border-radius: 50%;
+        }
+        .tech-stack, .github-stats, .contact {
+            margin-top: 30px;
+        }
+        .contact img {
+            width: 40px;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+        .contact img:hover {
+            transform: scale(1.1);
         }
         .dark-mode {
             background-color: #121212;
@@ -40,63 +59,40 @@
             font-weight: bold;
             border-radius: 5px;
         }
-        .profile {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
-        .profile img {
-            border-radius: 50%;
-            width: 150px;
-        }
-        .social-icons img {
-            width: 40px;
-            margin: 10px;
-        }
     </style>
 </head>
 <body>
-    <div class="sidebar">
-        <h2>Deepak's Profile</h2>
-        <ul>
-            <li><a href="#about" style="color: white;">About Me</a></li>
-            <li><a href="#tech" style="color: white;">Tech Stack</a></li>
-            <li><a href="#stats" style="color: white;">GitHub Stats</a></li>
-            <li><a href="#contact" style="color: white;">Contact</a></li>
-        </ul>
-    </div>
-    <div class="content">
-        <button class="switch" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button><section id="about">
+    <button class="switch" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+    <div class="container">
         <div class="profile">
-            <img src="https://github.com/user-attachments/assets/85e7a433-82f2-4b6a-9c17-0644e84bca9a" alt="Profile">
+            <img src="https://github.com/user-attachments/assets/85e7a433-82f2-4b6a-9c17-0644e84bca9a" alt="Deepak's Profile">
             <div>
                 <h2>Hi there! I'm Deepak 👋</h2>
-                <p>🎓 Computer Science Engineering Student</p>
-                <p>💡 Passionate about AI, Web Development</p>
-                <p>💼 Future Entrepreneur aiming to revolutionize the world</p>
+                <p>🚀 Computer Science Engineering Student | Future Entrepreneur</p>
             </div>
-        </div>
-    </section>
+        </div><div class="tech-stack">
+        <h3>🔧 Tech Stack & Tools:</h3>
+        <p>Python, C, HTML, CSS, JavaScript</p>
+    </div>
 
-    <section id="tech">
-        <h2>🔧 Tech Stack & Tools:</h2>
-        <p>Python, C, HTML5, CSS3</p>
-    </section>
-
-    <section id="stats">
-        <h2>📊 GitHub Stats:</h2>
+    <div class="github-stats">
+        <h3>📊 GitHub Stats:</h3>
         <img src="https://github-readme-stats.vercel.app/api?username=deepak-raven&show_icons=true&theme=radical" alt="GitHub Stats">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepak-raven&layout=compact&theme=tokyonight" alt="Top Languages">
-    </section>
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=deepak-raven&theme=dark" alt="GitHub Streak">
+    </div>
 
-    <section id="contact">
-        <h2>📫 Connect with Me:</h2>
-        <div class="social-icons">
-            <a href="mail-to:deepak.me005@gmail.com"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Gmail_Icon.svg" alt="Gmail"></a>
-            <a href="https://linkedin.com/in/contact-deepak-s"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"></a>
-            <a href="https://x.com/DeepakS200507"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/X_logo_2023.svg" alt="X"></a>
-        </div>
-    </section>
+    <div class="contact">
+        <h3>📫 Connect with Me:</h3>
+        <a href="mailto:your-email@gmail.com">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail">
+        </a>
+        <a href="https://linkedin.com/in/contact-deepak-s">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+        </a>
+        <a href="https://x.com/DeepakS200507">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/X_logo_2023.svg" alt="X">
+        </a>
+    </div>
 </div>
 
 <script>
