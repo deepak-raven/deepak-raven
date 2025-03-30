@@ -19,11 +19,11 @@ jobs:
           node-version: '20'
 
       - name: Install GitHub Contributions Canvas
-        run: npm install -g github-contributions-canvas
+        run: npm install github-contributions-canvas
 
       - name: Generate Contribution Heatmap
         run: |
-          github-contributions-canvas \
+          npx github-contributions-canvas \
             --username deepak-raven \
             --output contribution-heatmap.svg \
             --theme dark-tron \
@@ -34,5 +34,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add contribution-heatmap.svg
-          git commit -m "Updated 3D Contribution Heatmap"
+          git commit -m "Updated 3D Contribution Heatmap" || echo "No changes to commit"
           git push
