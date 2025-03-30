@@ -15,6 +15,7 @@
 ---
 
 ### 📊 GitHub Stats:
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=deepak-raven&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=deepak-raven&show_icons=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=deepak-raven&layout=compact&theme=tokyonight)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=deepak-raven&theme=dark)
@@ -33,6 +34,7 @@
 ---
 
 ### 📫 Connect with Me:
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/contact-deepak-s)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/DeepakS200507)
 
