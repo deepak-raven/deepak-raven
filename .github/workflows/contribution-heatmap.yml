@@ -17,12 +17,11 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install github-contributions-canvas
-        run: npm install -g github-contributions-canvas
+      - name: Install Dependencies
+        run: npm install github-contributions-canvas
 
       - name: Generate Heatmap
-        run: |
-          github-contributions-canvas --username deepak-raven --output contribution-heatmap.svg --theme dark-tron --format svg --3d
+        run: npx github-contributions-canvas --username deepak-raven --output contribution-heatmap.svg --theme dark-tron --format svg --3d
 
       - name: Commit and Push Changes
         run: |
