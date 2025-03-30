@@ -1,6 +1,6 @@
-<table style="width:100%;>
+<table style="width:100%; border-collapse: collapse;">
   <tr>
-    <td style="vertical-align: middle;">
+    <td style= "width:75%;vertical-align: middle;">
     <h2>
         <a href="https://git.io/typing-svg">
           <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=random&width=550&lines=Hi+there!+I'm+Deepak+👋" alt="Typing SVG">
@@ -13,7 +13,7 @@
         <li>💼 Future Entrepreneur aiming to revolutionize the world</li>
       </ul>
     </td>
-    <td style="vertical-align: middle;">
+    <td style="width:25%; vertical-align: middle;">
       <img src="https://github.com/user-attachments/assets/85e7a433-82f2-4b6a-9c17-0644e84bca9a" width="150">
     </td>
   </tr>
