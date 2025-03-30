@@ -4,26 +4,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deepak's GitHub Page</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            transition: background 0.3s, color 0.3s;
-        }
-        .dark-mode {
-            background-color: #121212;
-            color: white;
-        }
-        .switch {
-            position: fixed;
-            top: 10px;
-            right: 10px;
-            padding: 10px;
-            cursor: pointer;
-            border: none;
-            background: #000;
-            color: white;
-            font-weight: bold;
-            border-radius: 5px;
-        }
+        :root {
+    --bg-light: #f5f5f5;
+    --text-light: #333333;
+    --heading-light: #007acc;
+    --link-light: #1e90ff;
+    --button-light: #6200ea;
+    --border-light: #cccccc;
+}
+
+:root {
+    --bg-dark: #121212;
+    --text-dark: #ffffff;
+    --heading-dark: #ff6600;
+    --link-dark: #ff4500;
+    --button-dark: #ff9800;
+    --border-dark: #d1d1d1;
+}
+
+body {
+    background-color: var(--bg-light);
+    color: var(--text-light);
+    transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+}
+
+h1, h2, h3 {
+    color: var(--heading-light);
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3 {
+    color: var(--heading-dark);
+}
+
+a {
+    color: var(--link-light);
+}
+
+.dark-mode a {
+    color: var(--link-dark);
+}
+
+button {
+    background-color: var(--button-light);
+    color: white;
+    border: 1px solid var(--border-light);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-mode button {
+    background-color: var(--button-dark);
+    border: 1px solid var(--border-dark);
+            }
     </style>
 </head>
 <body>
