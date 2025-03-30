@@ -1,9 +1,15 @@
-## Hi there! I'm Deepak👋
-
-### 🚀 About Me:
-- 🎓 Computer Science Engineering Student
-- 💡 Passionate about AI, Web Development, and becoming a ntrepreneur
-- 💼 Future Entrepreneur aiming to revolutionize the world
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div>
+    <h2>Hi there! I'm Deepak 👋</h2>
+    <h3>🚀 About Me:</h3>
+    <ul>
+      <li>🎓 Computer Science Engineering Student</li>
+      <li>💡 Passionate about AI, Web Development, and becoming an entrepreneur</li>
+      <li>🎼 Future Entrepreneur aiming to revolutionize the world</li>
+    </ul>
+  </div>
+  <img src="https://github.com/user-attachments/assets/4c9b961a-7af4-4c67-bac9-ecd243450dcf" width="150" style="border-radius: 10px;">
+</div>
 
 ---
 
