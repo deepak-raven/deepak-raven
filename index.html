@@ -1,61 +1,53 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deepak's GitHub Page</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
             transition: background 0.3s, color 0.3s;
-            margin: 0;
-            padding: 20px;
+        }
+        .dark-mode {
+            background: #121212;
+            color: white;
         }
         .container {
             display: flex;
-            align-items: center;
             justify-content: space-between;
-            max-width: 900px;
-            margin: auto;
+            align-items: center;
+            padding: 20px;
         }
-        .intro {
+        .content {
             max-width: 50%;
         }
-        .profile-img {
-            width: 180px;
-            height: auto;
-            position: relative;
-            mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
-            -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+        .switch {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            padding: 10px;
+            cursor: pointer;
+            border: none;
+            background: black;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
         }
-        .tech-stack {
-            background: rgba(0, 0, 0, 0.05);
-            padding: 15px;
-            border-radius: 10px;
-            margin-top: 20px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .tech-bubble {
-            padding: 10px 15px;
-            background: white;
-            border-radius: 20px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .contacts {
-            margin-top: 20px;
-        }
-        .contacts a {
-            margin-right: 15px;
+        model-viewer {
+            width: 400px;
+            height: 400px;
         }
     </style>
 </head>
 <body>
+    <button class="switch" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+
     <div class="container">
-        <div class="intro">
+        <div class="content">
             <h2>Hi there! I'm Deepak 👋</h2>
             <h3>🚀 About Me:</h3>
             <ul>
@@ -64,21 +56,20 @@
                 <li>💼 Future Entrepreneur aiming to revolutionize the world</li>
             </ul>
         </div>
-        <img src="https://github.com/user-attachments/assets/85e7a433-82f2-4b6a-9c17-0644e84bca9a" class="profile-img">
-    </div><h3>🔧 Tech Stack & Tools:</h3>
-<div class="tech-stack">
-    <div class="tech-bubble"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="24"> Python</div>
-    <div class="tech-bubble"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="24"> C</div>
-    <div class="tech-bubble"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="24"> HTML5</div>
-    <div class="tech-bubble"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="24"> CSS3</div>
-</div>
+        <model-viewer src="https://drive.google.com/uc?export=download&id=1T9852oEzmYl5JyPf5iXZKyI0ZOqtKG0s"
+                      alt="3D Model"
+                      auto-rotate
+                      camera-controls></model-viewer>
+    </div>
 
-<h3>📫 Connect with Me:</h3>
-<div class="contacts">
-    <a href="mailto:your-email@gmail.com"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_(2020).svg" width="32"></a>
-    <a href="https://linkedin.com/in/contact-deepak-s"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="32"></a>
-    <a href="https://x.com/DeepakS200507"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/X_logo_2023.svg" width="32"></a>
-</div>
-
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+            localStorage.setItem("darkMode", document.body.classList.contains("dark-mode") ? "enabled" : "disabled");
+        }
+        if (localStorage.getItem("darkMode") === "enabled") {
+            document.body.classList.add("dark-mode");
+        }
+    </script>
 </body>
 </html>
