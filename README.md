@@ -5,10 +5,10 @@
     <ul>
       <li>🎓 Computer Science Engineering Student</li>
       <li>💡 Passionate about AI, Web Development, and becoming an entrepreneur</li>
-      <li>🎼 Future Entrepreneur aiming to revolutionize the world</li>
+      <li>💼 Future Entrepreneur aiming to revolutionize the world</li>
     </ul>
   </div>
-  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/129486790/428382476-4c9b961a-7af4-4c67-bac9-ecd243450dcf.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250330%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250330T090648Z&X-Amz-Expires=300&X-Amz-Signature=f934296a001a34c6f79ca8607ee58ad0cd10357023aa953eb0e7bd0a8c05e409&X-Amz-SignedHeaders=host" width="150" style="border-radius: 10px;">
+  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/129486790/428382476-4c9b961a-7af4-4c67-bac9-ecd243450dcf.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250330%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250330T090648Z&X-Amz-Expires=300&X-Amz-Signature=f934296a001a34c6f79ca8607ee58ad0cd10357023aa953eb0e7bd0a8c05e409&X-Amz-SignedHeaders=host" width="150">
 </div>
 
 ---
