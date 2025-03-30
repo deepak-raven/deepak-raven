@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,19 +27,51 @@
     </style>
 </head>
 <body>
-    <button class="switch" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
-    <h1>Welcome to My GitHub Page!</h1>
-    <p>This page supports Dark Mode switching!</p>
+    <button class="switch" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button><table style="width:100%; border-collapse: collapse;">
+    <tr>
+        <td style="width:75%;vertical-align: middle;">
+            <h2>
+                <a href="https://git.io/typing-svg">
+                  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=random&width=550&lines=Hi+there!+I'm+Deepak+👋" alt="Typing SVG">
+                </a>
+            </h2>
+            <h3>🚀 About Me:</h3>
+            <ul>
+                <li>🎓 Computer Science Engineering Student</li>
+                <li>💡 Passionate about AI, Web Development</li>
+                <li>💼 Future Entrepreneur aiming to revolutionize the world</li>
+            </ul>
+        </td>
+        <td style="width:25%; vertical-align: middle;">
+            <img src="https://github.com/user-attachments/assets/85e7a433-82f2-4b6a-9c17-0644e84bca9a" width="150">
+        </td>
+    </tr>
+</table>
 
-    <script>
-        function toggleDarkMode() {
-            document.body.classList.toggle("dark-mode");
-            localStorage.setItem("darkMode", document.body.classList.contains("dark-mode") ? "enabled" : "disabled");
-        }
+<h3>📊 GitHub Stats:</h3>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=deepak-raven&theme=react-dark">
+<img src="https://github-readme-stats.vercel.app/api?username=deepak-raven&show_icons=true&theme=radical">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepak-raven&layout=compact&theme=tokyonight">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=deepak-raven&theme=dark">
 
-        if (localStorage.getItem("darkMode") === "enabled") {
-            document.body.classList.add("dark-mode");
-        }
-    </script>
+<h3>🏆 Contribution Snake:</h3>
+<img src="https://raw.githubusercontent.com/deepak-raven/deepak-raven/output/github-contribution-grid-snake.svg">
+
+<h3>📫 Connect with Me:</h3>
+<a href="mailto:your-email@gmail.com">Gmail</a> | 
+<a href="https://linkedin.com/in/contact-deepak-s">LinkedIn</a> | 
+<a href="https://x.com/DeepakS200507">Twitter/X</a>
+
+<script>
+    function toggleDarkMode() {
+        document.body.classList.toggle("dark-mode");
+        localStorage.setItem("darkMode", document.body.classList.contains("dark-mode") ? "enabled" : "disabled");
+    }
+
+    if (localStorage.getItem("darkMode") === "enabled") {
+        document.body.classList.add("dark-mode");
+    }
+</script>
+
 </body>
 </html>
