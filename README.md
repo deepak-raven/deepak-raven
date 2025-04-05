@@ -14,7 +14,7 @@
       </ul>
     </td>
     <td style="width:25%; vertical-align: middle;">
-      <img SRChttps:="//github.com/deepak-raven">
+      <img SRC="https://github.com/user-attachments/assets/85e7a433-82f2-4b6a-9c17-0644e84bca9a" width="150>
     </td>
   </tr>
 </table>
