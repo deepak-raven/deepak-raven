@@ -13,7 +13,7 @@
         <li>💼 Future Entrepreneur aiming to revolutionize the world</li>
       </ul>
     </td>
-    <td> style="width:25%; vertical-align: middle;">
+    <td style="width:25%; vertical-align: middle;">
       <img SRC="Picsart_25-04-05_16-01-12-546.png"; "width=150">
     </td>
   </tr>
