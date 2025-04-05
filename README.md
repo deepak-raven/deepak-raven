@@ -13,8 +13,8 @@
         <li>💼 Future Entrepreneur aiming to revolutionize the world</li>
       </ul>
     </td>
-    <td style="width:25%; vertical-align: middle;">
-      <img SRC="https://github.com/user-attachments/assets/85e7a433-82f2-4b6a-9c17-0644e84bca9a" width="150>
+    <td> style="width:25%; vertical-align: middle;">
+      <img SRC="Picsart_25-04-05_16-01-12-546.png" width="150>
     </td>
   </tr>
 </table>
