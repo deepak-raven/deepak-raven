@@ -14,7 +14,7 @@
       </ul>
     </td>
     <td style="width:25%; vertical-align: middle;">
-      <img SRC="Picsart_25-04-05_16-01-12-546.png"; "width=5">
+      <img SRC="Picsart_25-04-05_16-01-12-546.png"; width=105">
     </td>
   </tr>
 </table>
