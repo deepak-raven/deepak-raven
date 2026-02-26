@@ -62,7 +62,6 @@
         <br/>
         <img src="https://skillicons.dev/icons?i=nodejs,nestjs,python,mongodb" height="40" alt="backend grid 1" />
         <br/>
-
         <br/><br/>
       </td>
       <td align="center">
@@ -86,7 +85,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=deepak-raven&theme=omni&hide_border=true&background=191622&ring=FF79C6&fire=FF79C6&currStreakLabel=B3B3B3" alt="GitHub Streak" width="50%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deepak-raven&theme=omni&hide_border=true&background=191622&ring=FF79C6&fire=FF79C6&currStreakLabel=B3B3B3" alt="GitHub Streak" width="50%" />
 </div>
 
 <br/>
