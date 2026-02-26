@@ -1,60 +1,94 @@
-<table style="width:100%; border-collapse: collapse;">
-  <tr>
-    <td style= "width:75%;vertical-align: middle;">
-    <h2>
-        <a href="https://git.io/typing-svg">
-          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=random&width=550&lines=Hi+there!+I'm+Deepak+👋" alt="Typing SVG">
+<!--
+**Welcome to your revamped README!**
+
+Some tips before you save:
+1. Replace all occurrences of `YOUR_USERNAME` with your actual GitHub username.
+2. Update the social links (`YOUR_LINKEDIN`, `YOUR_TWITTER`, `YOUR_EMAIL`) with your personal handles.
+3. Feel free to swap out the Tech Stack icons according to your actual expertise.
+-->
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hi,%20I'm%20Deepak!&fontSize=70&fontAlignY=35&animation=twinkling&fontColor=ffffff" alt="Header waving image" />
+</div>
+
+<h3 align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Software+Engineer;Full-Stack+Developer;Open-Source+Enthusiast" alt="Typing SVG animation" />
+  </a>
+</h3>
+
+<div align="center">
+  A passionate developer dedicated to building impactful, scalable software solutions. Always eager to explore cutting-edge technologies and collaborate on innovative projects.
+</div>
+
+<br />
+
+<div align="center">
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn" />
+  </a>
+  <a href="https://twitter.com/YOUR_TWITTER">
+    <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white&style=for-the-badge" alt="Twitter" />
+  </a>
+  <a href="mailto:YOUR_EMAIL">
+    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&style=for-the-badge" alt="Email" />
+  </a>
+</div>
+
+<br />
+
+<h2 align="center">🛠️ Tech Stack & Tools</h2>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,node,express,nestjs" /><br />
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,prisma,graphql,firebase" /><br />
+  <img src="https://skillicons.dev/icons?i=python,java,cpp,go,docker,kubernetes,aws,gcp" /><br />
+  <img src="https://skillicons.dev/icons?i=git,github,linux,vim,vscode,figma" />
+</div>
+
+<br />
+
+<h2 align="center">📊 GitHub Analytics</h2>
+
+<div align="center">
+  <table align="center" style="border: none;">
+    <tr>
+      <td width="50%" align="center">
+        <a href="https://github.com/anuraghazra/github-readme-stats">
+          <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2196F3&icon_color=2196F3&text_color=c9d1d9" alt="GitHub Stats" />
         </a>
-      </h2>
-      <h3>🚀 About Me:</h3>
-      <ul>
-        <li>🎓 Computer Science Engineering Student</li>
-        <li>💡 Passionate about AI, Web Development</li>
-        <li>💼 Future Entrepreneur aiming to revolutionize the world</li>
-      </ul>
-    </td>
-    <td style="width:25%; vertical-align: middle;">
-      <img SRC="Picsart_25-04-05_16-01-12-546.png"; width=150 ; align: down">
-    </td>
-  </tr>
-</table>
+      </td>
+      <td width="50%" align="center">
+        <a href="https://github.com/anuraghazra/github-readme-stats">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2196F3&text_color=c9d1d9" alt="Top Languages" />
+        </a>
+      </td>
+    </tr>
+  </table>
 
----
+  <br />
 
-![Loading](https://github.com/deepak-raven/deepak-raven/blob/main/loading.gif)
+  <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true&background=0D1117&ring=2196F3&fire=2196F3&currStreakLabel=c9d1d9" alt="GitHub Streak" />
+  </a>
+</div>
 
-### 🔧 Tech Stack & Tools:
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
----
+<br />
 
-### 📊 GitHub Stats:
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=deepak-raven&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=deepak-raven&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=deepak-raven&layout=compact&theme=tokyonight)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=deepak-raven&theme=dark)
+<h2 align="center">🌱 Currently learning</h2>
 
----
+- Advanced System Design & Architecture
+- Web3 and Decentralized Applications
+- Cloud Native DevOps
 
-### 💡 Fun Stuff:
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal)
-![Profile Views](https://komarev.com/ghpvc/?username=deepak-raven&color=blue)
+<h2 align="center">⚡ Fun facts</h2>
 
----
+- I can code in light mode (sometimes).
+- Music is my fuel. 🎵
 
-### 🏆 Contribution Snake:
-![Snake Animation](https://raw.githubusercontent.com/deepak-raven/deepak-raven/output/github-contribution-grid-snake.svg)
+<br />
 
----
-
-### 📫 Connect with Me:
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deepak.me005@gmail.com)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/contact-deepak-s)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/DeepakS200507)
-
-
----
-
-⭐️ **Feel free to star this repo and follow me for more!** 🚀
+<div align="center">
+  <p>Profile views</p>
+  <img src="https://profile-counter.glitch.me/YOUR_USERNAME/count.svg" alt="Profile views" />
+</div>
