@@ -89,7 +89,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME_HERE&theme=omni&hide_border=true&background=191622&ring=FF79C6&fire=FF79C6&currStreakLabel=B3B3B3" alt="GitHub Streak" width="50%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deepak-raven&theme=omni&hide_border=true&background=191622&ring=FF79C6&fire=FF79C6&currStreakLabel=B3B3B3" alt="GitHub Streak" width="50%" />
 </div>
 
 <br/>
