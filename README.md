@@ -54,23 +54,20 @@
     <tr>
       <td align="center">
         <br/>
-        <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind" height="40" alt="frontend grid 1" />
+        <img src="https://skillicons.dev/icons?i=vite,react,nextjs,tailwind" height="40" alt="frontend grid 1" />
         <br/>
-        <img src="https://skillicons.dev/icons?i=redux,framer,vite,sass" height="40" alt="frontend grid 2" />
         <br/><br/>
       </td>
       <td align="center">
         <br/>
-        <img src="https://skillicons.dev/icons?i=nodejs,nestjs,python,go" height="40" alt="backend grid 1" />
+        <img src="https://skillicons.dev/icons?i=nodejs,nestjs,python,mongodb" height="40" alt="backend grid 1" />
         <br/>
-        <img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,docker" height="40" alt="backend grid 2" />
+
         <br/><br/>
       </td>
       <td align="center">
         <br/>
         <img src="https://skillicons.dev/icons?i=git,github,vscode,figma" height="40" alt="tools grid 1" />
-        <br/>
-        <img src="https://skillicons.dev/icons?i=linux,aws,gcp,kubernetes" height="40" alt="tools grid 2" />
         <br/><br/>
       </td>
     </tr>
@@ -89,7 +86,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deepak-raven&theme=omni&hide_border=true&background=191622&ring=FF79C6&fire=FF79C6&currStreakLabel=B3B3B3" alt="GitHub Streak" width="50%" />
+  <img src="https://streak-stats.demolab.com/?user=deepak-raven&theme=omni&hide_border=true&background=191622&ring=FF79C6&fire=FF79C6&currStreakLabel=B3B3B3" alt="GitHub Streak" width="50%" />
 </div>
 
 <br/>
