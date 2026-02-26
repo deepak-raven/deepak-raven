@@ -60,7 +60,7 @@
       </td>
       <td align="center">
         <br/>
-        <img src="https://skillicons.dev/icons?i=nodejs,nestjs,python,mongodb" height="40" alt="backend grid 1" />
+        <img src="https://skillicons.dev/icons?i=nodejs,firebase,python,mongodb" height="40" alt="backend grid 1" />
         <br/>
         <br/><br/>
       </td>
