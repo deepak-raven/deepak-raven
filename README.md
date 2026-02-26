@@ -82,8 +82,8 @@
 <h2 align="center"> 📈 GitHub Matrix </h2>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME_HERE&show_icons=true&theme=omni&hide_border=true&title_color=E3E3E3&text_color=B3B3B3&icon_color=FF79C6&bg_color=191622" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME_HERE&layout=compact&theme=omni&hide_border=true&title_color=E3E3E3&text_color=B3B3B3&bg_color=191622" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=deepak-raven&show_icons=true&theme=omni&hide_border=true&title_color=E3E3E3&text_color=B3B3B3&icon_color=FF79C6&bg_color=191622" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepak-raven&layout=compact&theme=omni&hide_border=true&title_color=E3E3E3&text_color=B3B3B3&bg_color=191622" alt="Top Languages" width="48%" />
 </div>
 
 <br/>
