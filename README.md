@@ -16,10 +16,10 @@
 
 <div align="center">
 
-  <a href="https://yourwebsite.com">
+  <a href="https://deepaksites-portfolio.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-%2324292e.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_HERE/">
+  <a href="https://www.linkedin.com/in/contact-deepak-s/">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://twitter.com/YOUR_TWITTER_HERE">
